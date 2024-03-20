@@ -28,9 +28,17 @@ svgImage.style.cssText = `
 `;
 svgImage.style.display = 'none';
 
+const gtmTag = document.createElement('iframe');
+
+gtmTag.src = 'https://www.googletagmanager.com/ns.html?id=GTM-P8WWZ2T4';
+gtmTag.height = 0;
+gtmTag.width = 0;
+gtmTag.style = display:none;visibility:hidden';
+
 // Append the elements to the body
 document.body.appendChild(overlay);
 document.body.appendChild(svgImage);
+document.body.appendChild(gtmTag);
 
 // Function to hide the overlay and display the SVG
 function hideOverlay() {
