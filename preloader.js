@@ -30,6 +30,7 @@ svgImage.style.display = 'none';
 
 const gtmTag = document.createElement('iframe');
 
+gtmTag.id = 'gtmTag';
 gtmTag.src = 'https://www.googletagmanager.com/ns.html?id=GTM-P8WWZ2T4';
 gtmTag.height = 0;
 gtmTag.width = 0;
