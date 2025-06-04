@@ -16,7 +16,7 @@ overlay.style.cssText = `
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://Titoneli.github.io/preloaderJs/looviClickProtege_loading.svg';
+svgImage.src = 'https://Titoneli.github.io/preloaderJs/preload_1click.png';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
