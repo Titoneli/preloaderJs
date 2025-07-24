@@ -10,13 +10,13 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0);
     z-index: 999;
 `;
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://Titoneli.github.io/preloaderJs/preload_1click.png';
+svgImage.src = 'https://Titoneli.github.io/preloaderJs/preloader_cooper_cp.png';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
